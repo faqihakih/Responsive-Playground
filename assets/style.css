@@ -1,0 +1,126 @@
+.grey{
+    background-color: gray;
+    width: 35vw;
+    height: 70vh;
+    box-shadow: gray 5px 5px 10px;
+    opacity: 80%;
+}
+.pink{
+    background-color: indianred;
+    opacity: 80%;
+    width: 17.5vw;
+    height: 35vh;
+    position: absolute;
+    top: 8px;
+}
+.purple{
+    background-color: blueviolet;
+    opacity: 50%;
+    width: 18vw;
+    height: 69vh;
+    position: absolute;
+    top: 8px;
+    left: 17.7vw;
+}
+
+.aqua{
+    background-color: aqua;
+    position: absolute;
+    width: 58vw;
+    height: 70vh;
+    opacity: 80%;
+    top: 8px;
+    left: 40vw;
+}
+.darkgrey{
+    background-color: rgb(248, 183, 126);
+    position: absolute;
+    width: 27vw;
+    height: 35vh;
+    box-shadow: rgb(87, 86, 86) 5px 5px 10px;
+    opacity: 80%;
+    top: 8px;
+    left: 40vw;
+}
+.secondPink{
+    background-color: pink;
+    position: absolute;
+    width: 50vw;
+    height: 17vh;
+    box-shadow: rgb(87, 86, 86) 5px 5px 10px;
+    opacity: 80%;
+    top: 280px;
+    left: 40vw;
+    z-index: 1;
+}
+.gradianBlue{
+    background-image: linear-gradient(blue, white);
+    position: absolute;
+    width: 13vw;
+    height: 70vh;
+    opacity: 90%;
+    top: 8px;
+    left: 72vw;
+}
+@media only screen and (max-width: 768px) {
+    .grey{
+        height: 50vh;
+    }
+    .pink{
+        height: 25vh;
+    }
+    .purple{
+        height: 50vh;
+        left: 18vw;
+    }
+
+    .aqua{
+        width: 58vw;
+        height: 50vh;
+    }
+    .darkgrey{
+        width: 27vw;
+        height: 25vh;
+    }
+    .secondPink{
+        width: 50vw;
+        height: 10vh;
+        top: 180px;
+    }
+    .gradianBlue{
+        width: 13vw;
+        height: 50vh;
+        left: 74vw;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .grey{
+        height: 30vh;
+    }
+    .pink{
+        height: 15vh;
+    }
+    .purple{
+        height: 30vh;
+        left: 19vw;
+    }
+    .aqua{
+        width: 58vw;
+        height: 30vh;
+    }
+    .darkgrey{
+        width: 27vw;
+        height: 15vh;
+    }
+    .secondPink{
+        width: 50vw;
+        height: 8vh;
+        top: 110px;
+    }
+    .gradianBlue{
+        width: 13vw;
+        height: 30vh;
+        left: 74vw;
+    }
+}
